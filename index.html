@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hỗ trợ — Nhipy</title>
+<meta name="description" content="Nhipy — nhật ký thời gian nhẹ nhàng cho iPhone. Trang hỗ trợ, câu hỏi thường gặp và liên hệ. / Nhipy support and FAQ.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { --bg:#FFF7E8; --ink:#241E37; --muted:#665E73; --card:#FFFDF8; --line:#F1E7D7; --yellow:#FFD66B; --soft:#FFF0C2; --mint:#A8E6CF; --coral:#FF6B5C; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.65 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; -webkit-font-smoothing:antialiased; }
+  main { max-width:700px; margin:0 auto; padding:32px 20px 72px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  header img { width:56px; height:56px; border-radius:14px; }
+  header .brand { font-weight:800; font-size:22px; letter-spacing:-0.01em; }
+  header .brand small { display:block; font-weight:500; font-size:13px; color:var(--muted); }
+  nav.top { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 26px; }
+  nav.top a { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 14px; font-size:14px; color:var(--ink); text-decoration:none; }
+  nav.top a.on { background:var(--yellow); border-color:var(--yellow); font-weight:700; }
+  .hero { display:flex; gap:20px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:24px; padding:22px; }
+  .hero img { width:112px; height:112px; border-radius:26px; flex:none; }
+  h1 { font-size:30px; line-height:1.15; margin:0 0 6px; letter-spacing:-0.01em; }
+  h2 { font-size:19px; margin:32px 0 10px; }
+  p, li { margin:0 0 10px; }
+  ul { padding-left:22px; }
+  .muted { color:var(--muted); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:6px 20px; margin-top:14px; }
+  .card.yes { background:var(--soft); border-color:#F5D98A; }
+  details { border-bottom:1px solid var(--line); padding:10px 0; }
+  details:last-of-type { border-bottom:none; }
+  summary { cursor:pointer; font-weight:700; }
+  summary::-webkit-details-marker { color:var(--muted); }
+  details p { margin:8px 0 2px; }
+  .btn { display:inline-block; background:var(--ink); color:#fff; border-radius:999px; padding:10px 18px; text-decoration:none; font-weight:700; margin:6px 8px 6px 0; }
+  .btn.alt { background:var(--yellow); color:var(--ink); }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+  a { color:inherit; }
+  @media (max-width:520px) { .hero { flex-direction:column; align-items:flex-start; } }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1B1626; --ink:#F6F1E8; --muted:#B4ABC2; --card:#251F33; --line:#3A3149; --soft:#3A3120; --mint:#2E5E4C; }
+    nav.top a.on, .btn.alt { color:#241E37; }
+    .btn { background:var(--yellow); color:#241E37; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Nhipy">
+    <div class="brand">Nhipy<small>Nhật ký thời gian · Time journal</small></div>
+  </header>
+  <nav class="top">
+    <a class="on" href="#vi">Hỗ trợ</a>
+    <a href="#en">Support (English)</a>
+    <a href="privacy.html">Chính sách quyền riêng tư / Privacy</a>
+  </nav>
+
+  <!-- ============================ TIẾNG VIỆT ============================ -->
+  <section id="vi">
+    <div class="hero">
+      <img src="icon.png" alt="">
+      <div>
+        <h1>Nhipy — chạm để ghi, nhìn lại một ngày</h1>
+        <p>Cuốn nhật ký thời gian nhẹ nhàng cho iPhone: chạm vào việc đang làm, Nhipy ghi lại "nhịp" của một ngày để bạn
+          nhìn lại — không chấm điểm, không phán xét, dữ liệu chỉ ở trên máy.</p>
+      </div>
+    </div>
+
+    <div class="card yes">
+      <h2 style="margin-top:14px">Cần giúp đỡ?</h2>
+      <p>Viết cho chúng tôi: <a href="mailto:gdcompanylimited@gmail.com">gdcompanylimited@gmail.com</a>. Chúng tôi thường trả lời trong vòng 2 ngày làm việc.
+        Khi báo lỗi, hãy kèm phiên bản iOS, phiên bản Nhipy (App Store › Nhipy › Lịch sử phiên bản) và các bước để lặp lại lỗi.</p>
+      <p><a class="btn" href="mailto:gdcompanylimited@gmail.com?subject=Nhipy%20-%20H%E1%BB%97%20tr%E1%BB%A3">Gửi email hỗ trợ</a>
+        <a class="btn alt" href="privacy.html">Chính sách quyền riêng tư</a></p>
+    </div>
+
+    <h2>Câu hỏi thường gặp</h2>
+    <div class="card">
+      <details open>
+        <summary>Dữ liệu của tôi có được gửi lên mạng không?</summary>
+        <p>Không. Nhipy không có tài khoản, không có máy chủ, không quảng cáo, không phân tích. Mọi việc và nhịp bạn ghi chỉ nằm
+          trên iPhone của bạn. Xem <a href="privacy.html">chính sách quyền riêng tư</a>.</p>
+      </details>
+      <details>
+        <summary>Làm sao sao lưu hoặc chuyển dữ liệu sang máy mới?</summary>
+        <p>Cài đặt › Dữ liệu ở đây › Xuất dữ liệu (.json) tạo tệp sao lưu. Trên máy mới, Cài đặt › Dữ liệu ở đây › Nhập từ tệp và chọn tệp đó. Sao lưu iCloud của iPhone
+          cũng chứa dữ liệu Nhipy nếu bạn bật sao lưu thiết bị.</p>
+      </details>
+      <details>
+        <summary>"Gợi ý lúc này" dựa vào gì?</summary>
+        <p>Khung giờ thường gặp của từng việc, thói quen của chính bạn trong các tuần trước và việc bạn vừa làm xong. Tất cả tính
+          trên máy; càng ghi nhiều, gợi ý càng đúng. Bạn sửa khung giờ của một việc trong Cài đặt › Việc hay chọn › Sửa.</p>
+      </details>
+      <details>
+        <summary>Linh vật là gì và vì sao nó đổi?</summary>
+        <p>Nhipy có 8 linh vật, mỗi con là một kiểu nhịp sống (Chim sẻ, Gà trống, Cú mèo, Ong thợ, Con lười, Chuột túi, Mèo, Rái cá).
+          Linh vật được chọn từ 7 ngày gần nhất của bạn, không con nào tốt hơn con nào. Xem cả gia đình trong Cài đặt › Linh vật.</p>
+      </details>
+      <details>
+        <summary>Widget không cập nhật?</summary>
+        <p>Mở Nhipy một lần để widget nhận dữ liệu mới. iOS tự giới hạn số lần widget làm mới; đồng hồ đang ghi vẫn chạy đúng.
+          Nếu vẫn không đổi, gỡ widget và thêm lại (nhấn giữ màn hình chính › Sửa › Thêm widget › tìm "Nhipy").</p>
+      </details>
+      <details>
+        <summary>Tôi lỡ tay chọn sai việc.</summary>
+        <p>Chạm "Hoàn tác" trên thông báo nhỏ vừa hiện. Sau đó vẫn sửa được: chạm vào nhịp trong danh sách Hôm nay để đổi việc,
+          chỉnh giờ, chia đôi hoặc xoá.</p>
+      </details>
+      <details>
+        <summary>Nhắc nhẹ hoạt động thế nào?</summary>
+        <p>Khi bật, Nhipy đặt một thông báo cục bộ nếu có khoảng chưa ghi khoảng 45 phút; không lặp lại và không nhắc từ 22:00 đến 07:00.
+          Tắt bất cứ lúc nào trong Cài đặt.</p>
+      </details>
+      <details>
+        <summary>Xoá toàn bộ dữ liệu bằng cách nào?</summary>
+        <p>Cài đặt › Dữ liệu ở đây › Xoá toàn bộ dữ liệu (chạm hai lần để xác nhận, xoá vĩnh viễn ngay lập tức), hoặc gỡ ứng dụng.</p>
+      </details>
+    </div>
+
+    <h2>Yêu cầu hệ thống</h2>
+    <p>iPhone chạy iOS 17 trở lên. Widget màn hình chính và màn hình khoá cần iOS 17+. Ứng dụng hoạt động hoàn toàn ngoại tuyến.</p>
+  </section>
+
+  <hr style="border:none;border-top:2px dashed var(--line);margin:48px 0 32px">
+
+  <!-- ============================ ENGLISH ============================ -->
+  <section id="en" lang="en">
+    <h1>Nhipy Support</h1>
+    <p>Nhipy is a gentle time journal for iPhone: tap what you are doing and Nhipy keeps the rhythm of your day so you can
+      look back — no scores, no judgement, and your data never leaves your phone.</p>
+
+    <div class="card yes">
+      <h2 style="margin-top:14px">Need help?</h2>
+      <p>Email us at <a href="mailto:gdcompanylimited@gmail.com">gdcompanylimited@gmail.com</a>. We usually reply within two business days. For bug reports,
+        please include your iOS version, the Nhipy version (App Store › Nhipy › Version History) and the steps to reproduce.</p>
+    </div>
+
+    <h2>FAQ</h2>
+    <div class="card">
+      <details open>
+        <summary>Is my data sent anywhere?</summary>
+        <p>No. There is no account, no server, no ads and no analytics. Everything you record stays on your iPhone. See the
+          <a href="privacy.html#en">privacy policy</a>.</p>
+      </details>
+      <details>
+        <summary>How do I back up or move to a new phone?</summary>
+        <p>Settings › Your data › Export (.json) creates a backup file. On the new phone, Settings › Your data › Import from file and pick it. Your iPhone's iCloud
+          backup also includes Nhipy data if device backup is on.</p>
+      </details>
+      <details>
+        <summary>What are the suggestions based on?</summary>
+        <p>Each activity's usual hours, your own habits from previous weeks and what you just finished. Everything is computed on
+          the device. Edit an activity's usual hours in Settings.</p>
+      </details>
+      <details>
+        <summary>The widget is not updating.</summary>
+        <p>Open Nhipy once so the widget receives fresh data. iOS limits how often widgets refresh; the running timer still counts
+          correctly. If it still looks stale, remove the widget and add it again.</p>
+      </details>
+      <details>
+        <summary>How do I delete everything?</summary>
+        <p>Settings › Your data › Delete all data (tap twice to confirm; permanent and immediate), or delete the app.</p>
+      </details>
+    </div>
+
+    <h2>Requirements</h2>
+    <p>iPhone running iOS 17 or later. Works fully offline.</p>
+  </section>
+
+  <footer>© 2026 Nhipy · <a href="index.html">Hỗ trợ / Support</a> · <a href="privacy.html">Quyền riêng tư / Privacy</a></footer>
+</main>
+</body>
+</html>

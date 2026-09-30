@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư — Nhipy</title>
+<meta name="description" content="Nhipy không thu thập dữ liệu. Mọi thứ bạn ghi chỉ nằm trên iPhone của bạn. / Nhipy collects no data; everything stays on your iPhone.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="canonical" href="privacy.html">
+<style>
+  :root { --bg:#FFF7E8; --ink:#241E37; --muted:#665E73; --card:#FFFDF8; --line:#F1E7D7; --yellow:#FFD66B; --soft:#FFF0C2; --mint:#A8E6CF; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.65 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; -webkit-font-smoothing:antialiased; }
+  main { max-width:700px; margin:0 auto; padding:32px 20px 72px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  header img { width:56px; height:56px; border-radius:14px; }
+  header .brand { font-weight:800; font-size:22px; letter-spacing:-0.01em; }
+  header .brand small { display:block; font-weight:500; font-size:13px; color:var(--muted); }
+  nav.top { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 26px; }
+  nav.top a { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 14px; font-size:14px; color:var(--ink); text-decoration:none; }
+  nav.top a.on { background:var(--yellow); border-color:var(--yellow); font-weight:700; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 6px; letter-spacing:-0.01em; }
+  h2 { font-size:19px; margin:30px 0 8px; }
+  h3 { font-size:16px; margin:18px 0 4px; }
+  p, li { margin:0 0 10px; }
+  ul { padding-left:22px; }
+  .muted { color:var(--muted); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:6px 20px; margin-top:20px; }
+  .card.yes { background:var(--soft); border-color:#F5D98A; }
+  table { width:100%; border-collapse:collapse; font-size:15px; margin:8px 0 14px; }
+  th, td { text-align:left; vertical-align:top; padding:8px 6px; border-bottom:1px solid var(--line); }
+  th { font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .no { display:inline-block; background:var(--mint); border-radius:999px; padding:1px 10px; font-size:13px; font-weight:700; }
+  hr.lang { border:none; border-top:2px dashed var(--line); margin:48px 0 32px; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+  a { color:inherit; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1B1626; --ink:#F6F1E8; --muted:#B4ABC2; --card:#251F33; --line:#3A3149; --soft:#3A3120; --mint:#2E5E4C; }
+    nav.top a.on { color:#241E37; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Nhipy">
+    <div class="brand">Nhipy<small>Nhật ký thời gian · Time journal</small></div>
+  </header>
+  <nav class="top">
+    <a href="index.html">Hỗ trợ / Support</a>
+    <a class="on" href="#vi">Chính sách quyền riêng tư</a>
+    <a href="#en">Privacy Policy (English)</a>
+  </nav>
+
+  <!-- ============================ TIẾNG VIỆT ============================ -->
+  <section id="vi">
+    <h1>Chính sách quyền riêng tư</h1>
+    <p class="muted">Có hiệu lực: 30/09/2026 · Áp dụng cho ứng dụng <strong>Nhipy</strong> trên iOS (mã gói <code>com.gdragon.nhip</code>) và widget đi kèm.</p>
+
+    <div class="card yes">
+      <h2>Tóm tắt trong một câu</h2>
+      <p>Nhipy <strong>không thu thập, không gửi đi và không chia sẻ</strong> bất kỳ dữ liệu nào của bạn. Không có tài khoản,
+        không có máy chủ, không quảng cáo, không công cụ phân tích, không theo dõi. Mọi thứ bạn ghi chỉ nằm trên iPhone của bạn.</p>
+    </div>
+
+    <h2>1. Chúng tôi là ai</h2>
+    <p>Nhipy là ứng dụng nhật ký thời gian do một nhà phát triển độc lập tại Việt Nam xây dựng và phát hành. Trong tài liệu này,
+      "chúng tôi" là nhà phát triển Nhipy; "bạn" là người dùng ứng dụng.</p>
+
+    <h2>2. Dữ liệu ứng dụng xử lý và nơi lưu</h2>
+    <p>Khi dùng Nhipy, bạn tạo ra các dữ liệu sau. Tất cả được lưu <strong>chỉ trên thiết bị của bạn</strong>, trong vùng lưu
+      trữ riêng của ứng dụng (sandbox) và không bao giờ được gửi tới chúng tôi hay bất kỳ bên nào khác.</p>
+    <table>
+      <tr><th>Dữ liệu</th><th>Dùng để làm gì</th><th>Rời khỏi máy?</th></tr>
+      <tr><td>Danh sách việc (tên, emoji, nhóm, khung giờ)</td><td>Hiển thị ô việc, gợi ý theo giờ</td><td><span class="no">Không</span></td></tr>
+      <tr><td>Các "nhịp" (việc gì, bắt đầu, kết thúc)</td><td>Nhịp ngày, Nhìn lại, Tổng kết, linh vật, gợi ý theo thói quen</td><td><span class="no">Không</span></td></tr>
+      <tr><td>Cài đặt (nhắc nhẹ, đã xem tour, linh vật…)</td><td>Ghi nhớ lựa chọn của bạn</td><td><span class="no">Không</span></td></tr>
+      <tr><td>Bản tóm tắt cho widget</td><td>Widget đọc qua vùng chia sẻ nội bộ của ứng dụng (App Group) trên chính máy</td><td><span class="no">Không</span></td></tr>
+    </table>
+    <p>Mọi tính toán (gợi ý, thống kê, tổng kết, chọn linh vật) đều chạy trên máy. Ứng dụng <strong>không kết nối Internet</strong>
+      để hoạt động và không có máy chủ nào của Nhipy.</p>
+    <p>Nếu bạn bật sao lưu iCloud hoặc sao lưu bằng máy tính cho iPhone, bản sao lưu của thiết bị (do Apple thực hiện) sẽ chứa
+      dữ liệu của Nhipy. Việc này do bạn và Apple kiểm soát theo <a href="https://www.apple.com/legal/privacy/" rel="noopener">chính sách của Apple</a>; chúng tôi không thể truy cập bản sao lưu đó.</p>
+
+    <h2>3. Dữ liệu chúng tôi KHÔNG thu thập</h2>
+    <ul>
+      <li>Không danh tính: không tài khoản, không tên, email, số điện thoại.</li>
+      <li>Không vị trí, không danh bạ, không ảnh, không micro, không camera.</li>
+      <li>Không định danh thiết bị hay định danh quảng cáo (IDFA), không theo dõi trên ứng dụng và trang web của bên khác.</li>
+      <li>Không dữ liệu sử dụng, không báo cáo sự cố, không phân tích (analytics).</li>
+      <li>Không quảng cáo, không mua trong ứng dụng, không SDK của bên thứ ba thu thập dữ liệu.</li>
+    </ul>
+    <p>Trong phần "Quyền riêng tư của ứng dụng" trên App Store, Nhipy khai báo <strong>"Không thu thập dữ liệu"</strong>.</p>
+
+    <h2>4. Các quyền hệ thống ứng dụng có thể xin</h2>
+    <p>Nhipy chỉ hỏi quyền khi bạn dùng tính năng tương ứng, và bạn có thể từ chối hoặc thu hồi bất cứ lúc nào trong Cài đặt của iOS.</p>
+    <table>
+      <tr><th>Quyền</th><th>Khi nào</th><th>Dùng để làm gì</th></tr>
+      <tr><td>Thông báo</td><td>Khi bạn bật "Nhắc nhẹ"</td><td>Đặt một thông báo cục bộ trên máy khi có khoảng chưa ghi. Không dùng thông báo đẩy từ máy chủ, không gửi token thiết bị đi đâu.</td></tr>
+      <tr><td>Thêm ảnh vào Ảnh</td><td>Khi bạn chọn lưu ảnh Tổng kết</td><td>Lưu ảnh tổng kết bạn vừa tạo vào thư viện Ảnh. Ứng dụng không đọc thư viện Ảnh của bạn.</td></tr>
+      <tr><td>Tệp / bảng chia sẻ</td><td>Khi bạn xuất, nhập hoặc chia sẻ</td><td>Bạn tự chọn nơi lưu tệp .json hoặc ảnh và tự chọn chia sẻ với ai. Nhipy không biết bạn gửi đi đâu.</td></tr>
+    </table>
+
+    <h2>5. Xuất, nhập và xoá dữ liệu — bạn toàn quyền</h2>
+    <ul>
+      <li><strong>Xuất:</strong> Cài đặt › Dữ liệu ở đây › Xuất dữ liệu (.json) tạo một tệp chứa toàn bộ việc và nhịp của bạn. Bạn quyết định lưu hay chia sẻ tệp đó.</li>
+      <li><strong>Nhập:</strong> Khi nhập tệp, Nhipy giữ một bản sao lưu dữ liệu cũ trong ứng dụng Tệp › Nhipy trên máy để bạn có thể quay lại.</li>
+      <li><strong>Xoá:</strong> "Xoá toàn bộ dữ liệu" trong Cài đặt › Dữ liệu ở đây (chạm hai lần để xác nhận) xoá vĩnh viễn mọi dữ liệu ngay lập tức. Gỡ ứng dụng cũng xoá toàn bộ dữ liệu, kể cả bản tóm tắt cho widget.</li>
+    </ul>
+    <p>Vì không có dữ liệu nào ở phía chúng tôi, không có gì cần bạn yêu cầu chúng tôi xoá hay cung cấp.</p>
+
+    <h2>6. Trẻ em</h2>
+    <p>Nhipy không thu thập dữ liệu của bất kỳ ai, kể cả trẻ em dưới 13 tuổi (hoặc độ tuổi tương đương theo luật địa phương).
+      Ứng dụng không có nội dung, quảng cáo hay liên kết hướng tới trẻ em.</p>
+
+    <h2>7. Bảo mật</h2>
+    <p>Dữ liệu được bảo vệ bởi cơ chế sandbox và mã hoá thiết bị của iOS (mật khẩu, Face ID/Touch ID của bạn). Chúng tôi khuyên
+      bạn đặt mật khẩu cho iPhone và cân nhắc trước khi chia sẻ tệp xuất ra.</p>
+
+    <h2>8. Thay đổi chính sách</h2>
+    <p>Nếu cách Nhipy xử lý dữ liệu thay đổi (ví dụ thêm đồng bộ tuỳ chọn trong tương lai), chúng tôi sẽ cập nhật trang này, đổi
+      ngày hiệu lực ở đầu trang và thông báo trong ứng dụng trước khi tính năng đó có hiệu lực. Mọi tính năng như vậy sẽ luôn
+      là <strong>tự chọn</strong> (opt-in).</p>
+
+    <h2>9. Liên hệ</h2>
+    <p>Mọi câu hỏi về quyền riêng tư: <a href="mailto:gdcompanylimited@gmail.com">gdcompanylimited@gmail.com</a>. Trang hỗ trợ: <a href="index.html">Hỗ trợ Nhipy</a>.</p>
+  </section>
+
+  <hr class="lang">
+
+  <!-- ============================ ENGLISH ============================ -->
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective: 30 September 2026 · Applies to the <strong>Nhipy</strong> app for iOS (bundle ID <code>com.gdragon.nhip</code>) and its widget.</p>
+
+    <div class="card yes">
+      <h2>In one sentence</h2>
+      <p>Nhipy <strong>does not collect, transmit or share</strong> any of your data. There is no account, no server, no ads,
+        no analytics and no tracking. Everything you record stays on your iPhone.</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Nhipy is a time-journal app built and published by an independent developer in Vietnam. In this policy, "we" means the
+      developer of Nhipy and "you" means the person using the app.</p>
+
+    <h2>2. Data the app handles, and where it lives</h2>
+    <p>Using Nhipy creates the data below. All of it is stored <strong>only on your device</strong>, inside the app's private
+      sandbox, and is never sent to us or to anyone else.</p>
+    <table>
+      <tr><th>Data</th><th>Purpose</th><th>Leaves the device?</th></tr>
+      <tr><td>Your activity list (name, emoji, group, usual hours)</td><td>Activity tiles, time-of-day suggestions</td><td><span class="no">No</span></td></tr>
+      <tr><td>Your entries ("beats": what, start, end)</td><td>Day bar, Review, Recap, mascot, habit-based suggestions</td><td><span class="no">No</span></td></tr>
+      <tr><td>Settings (gentle reminder, tour seen, mascot…)</td><td>Remembering your choices</td><td><span class="no">No</span></td></tr>
+      <tr><td>A summary for the widget</td><td>Read by the widget through the app's own App Group container on the same device</td><td><span class="no">No</span></td></tr>
+    </table>
+    <p>All computation (suggestions, statistics, recaps, mascot selection) runs on the device. The app <strong>does not need an
+      Internet connection</strong> and Nhipy operates no servers.</p>
+    <p>If you enable iCloud Backup or computer backups for your iPhone, the device backup made by Apple will include Nhipy's
+      data. That backup is controlled by you and Apple under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>; we cannot access it.</p>
+
+    <h2>3. Data we do NOT collect</h2>
+    <ul>
+      <li>No identity: no account, name, email address or phone number.</li>
+      <li>No location, contacts, photos, microphone or camera access.</li>
+      <li>No device identifiers or advertising identifier (IDFA); no tracking across other companies' apps or websites.</li>
+      <li>No usage data, crash reports or analytics.</li>
+      <li>No advertising, no in-app purchases, no third-party SDKs that collect data.</li>
+    </ul>
+    <p>On the App Store, Nhipy's privacy label is <strong>"Data Not Collected"</strong>.</p>
+
+    <h2>4. System permissions the app may request</h2>
+    <p>Nhipy only asks for a permission when you use the related feature. You can decline or revoke any of them at any time in iOS Settings.</p>
+    <table>
+      <tr><th>Permission</th><th>When</th><th>Why</th></tr>
+      <tr><td>Notifications</td><td>When you turn on "Gentle reminder"</td><td>Schedules a local notification on the device when a stretch of time is unrecorded. No push notifications from a server; no device token is sent anywhere.</td></tr>
+      <tr><td>Add to Photos</td><td>When you save a Recap image</td><td>Saves the recap image you just created to your photo library. The app does not read your library.</td></tr>
+      <tr><td>Files / share sheet</td><td>When you export, import or share</td><td>You choose where a .json file or image is saved and who it is shared with. Nhipy has no knowledge of the destination.</td></tr>
+    </table>
+
+    <h2>5. Export, import and deletion — you are in control</h2>
+    <ul>
+      <li><strong>Export:</strong> Settings › Your data › Export (.json) creates a file with all your activities and entries. You decide whether to keep or share it.</li>
+      <li><strong>Import:</strong> When importing a file, Nhipy keeps a backup of the previous data in the Files app › Nhipy on your device so you can go back.</li>
+      <li><strong>Delete:</strong> "Delete all data" in Settings › Your data (tap twice to confirm) permanently erases everything immediately. Deleting the app also removes all data, including the widget summary.</li>
+    </ul>
+    <p>Because we hold no data on our side, there is nothing you need to ask us to delete or hand over.</p>
+
+    <h2>6. Children</h2>
+    <p>Nhipy collects no data from anyone, including children under 13 (or the equivalent age under local law). The app contains
+      no content, advertising or links directed at children.</p>
+
+    <h2>7. Security</h2>
+    <p>Your data is protected by the iOS app sandbox and device encryption (your passcode, Face ID or Touch ID). We recommend
+      setting a passcode on your iPhone and thinking twice before sharing an exported file.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>If the way Nhipy handles data ever changes (for example an optional sync feature in the future), we will update this
+      page, change the effective date at the top and let you know inside the app before that feature takes effect. Any such
+      feature will always be <strong>opt-in</strong>.</p>
+
+    <h2>9. Contact</h2>
+    <p>Questions about privacy: <a href="mailto:gdcompanylimited@gmail.com">gdcompanylimited@gmail.com</a>. Support page: <a href="index.html">Nhipy Support</a>.</p>
+  </section>
+
+  <footer>© 2026 Nhipy · <a href="index.html">Hỗ trợ / Support</a> · <a href="privacy.html">Quyền riêng tư / Privacy</a></footer>
+</main>
+</body>
+</html>
